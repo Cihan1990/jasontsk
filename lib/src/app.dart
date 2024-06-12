@@ -1,4 +1,4 @@
-import 'package:chuck_jokes/src/features/jokes/presentation/jokes_screen.dart';
+import 'package:chuck_jokes/src/features/jokes/presentation/main_screen.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -9,7 +9,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.from(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan)),
-      home: const JokesScreen(),
+      home: const MainScreen(),
     );
   }
 }
